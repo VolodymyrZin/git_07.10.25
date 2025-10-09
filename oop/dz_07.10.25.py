@@ -31,11 +31,8 @@ top_student = Student(name='Vano', surname='Dubidze', age=25, average_score=50)
 print(f"Ім'я студента: {top_student.name}, прізвище: {top_student.surname}, "
       f"вік: {top_student.age}, середній бал: {top_student.average_score}")
 
-# До зміни
 print("До зміни середнього балу:", top_student.average_score)
 
-# Зміна середнього балу
 top_student.change_average_score(80)
 
-# Після зміни
 print("Після зміни середнього балу:", top_student.average_score)
