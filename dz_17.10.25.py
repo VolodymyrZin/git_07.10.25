@@ -25,7 +25,8 @@ def sum_of_numbers(list_of_string):
             list_of_numbers.append("it is not int")
     return list_of_numbers
 
-print(sum_of_numbers(list_of_string))
+print(sum_of_numbers(list_of_string)) 
+
 
 
 
