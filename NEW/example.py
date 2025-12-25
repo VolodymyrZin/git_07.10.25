@@ -1,2 +1,2 @@
-def test_add(resource, a, b, result):
-    assert a ** b == result
+def test_add(resource, a, b, resultat):
+    assert a ** b == resultat
